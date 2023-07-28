@@ -1,0 +1,102 @@
+{
+  "info": {
+    "_postman_id": "558b6e4c-5cdb-423c-877f-247f8cadeaf7",
+    "name": "M8 CONSOLIDADO",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "26761847"
+  },
+  "item": [
+    {
+      "name": "localhost:3000/api/signup 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Mateo\",\r\n    \"lastName\": \"Díaz\",\r\n    \"email\": \"mateo.diaz@correo.com\",\r\n    \"password\": \"mateo123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:3000/api/signup",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "signup"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:3000/api/signup 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Santiago\",\r\n    \"lastName\": \"Mejías\",\r\n    \"email\": \"santiago.mejias@correo.com\",\r\n    \"password\": \"santiago123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:3000/api/signup",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "signup"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:3000/api/signup 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Lucas\",\r\n    \"lastName\": \"Rojas\",\r\n    \"email\": \"lucas.rojasz@correo.com\",\r\n    \"password\": \"lucas123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:3000/api/signup",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "signup"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:3000/api/signup 4",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"Facundo\",\r\n    \"lastName\": \"Fernández\",\r\n    \"email\": \"facundo.fernandez@correo.com\",\r\n    \"password\": \"facundo123456\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:3000/api/signup",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["api", "signup"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
